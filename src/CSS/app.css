@@ -1,0 +1,11 @@
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 0px;
+  outline: 0px;
+  background-color: transparent;
+}
+
+select::-ms-expand {
+  display: none;
+}
