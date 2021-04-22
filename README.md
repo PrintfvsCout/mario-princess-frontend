@@ -18,13 +18,27 @@ response
 
 ### How to play
 
+**Home page screenshot**
+![Screenshot](docs/images/home.png)
+
 The default starting grid is 3x3 if you want to increase the grid size the slider in the bottom can be used. The slider goes up to 50x50.
+
+**Play page screenshot**
+![Screenshot](docs/images/play.png)
 
 On the play page there is a grid where you can select Mario's and Princess's position by
 using the drop down menu. Also if you want you can add certain obsticles for Mario to avoid
 
 After you are satisfied with the positioning press submit and you will get a proper response from the API if a path is found, if the grid is not formatted correctly or if the path is blocked
 
+**Notification screenshot**
+![Screenshot](docs/images/gridbad.png)
+![Screenshot](docs/images/gridgood.png)
+
+
 The grid can be resetted with the reset button, or when the grid size is changed the grid resets.
 
-After a response has been recived from the server the id, path, grid and request time can be seen in the first row in the results page
+After a response has been received from the server the id, path, request time and grid can be seen in the first row in the results page
+
+**Results page screenshot**
+![Screenshot](docs/images/results.png)
